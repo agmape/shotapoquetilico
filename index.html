@@ -1,0 +1,79 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Shot Apoquetílico · Loja oficial</title>
+  <meta name="description" content="Taças, jogos de bar e acessórios testados no canal Shot Apoquetílico. Pix com 10% de desconto e pagamento seguro pelo Mercado Pago. Não vendemos bebida alcoólica.">
+  <meta name="theme-color" content="#0a0a0c">
+  <meta property="og:title" content="Shot Apoquetílico · Loja oficial">
+  <meta property="og:description" content="7 dias · dissolveu · virou shot. Produtos de bar testados e avaliados no canal.">
+  <meta property="og:image" content="assets/banner.webp">
+  <link rel="icon" href="assets/logo.webp">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Outfit:wght@400;600;700;800&family=Permanent+Marker&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <main>
+    <section class="hero">
+      <div class="wrap hero-grid">
+        <div>
+          <h1>Será que <span class="l2">funciona?</span></h1>
+          <p class="lead">Eu compro, eu testo no vídeo e dou a nota. Se for bom, você leva pra casa. Se for lixo, eu aviso.</p>
+          <div class="hero-cta">
+            <a class="btn" href="#produtos">Ver produtos</a>
+            <a class="btn ghost" href="#ranking">Como é o ranking</a>
+          </div>
+        </div>
+        <div class="hero-art">
+          <img src="assets/logo.webp" alt="Logo Shot Apoquetílico: pote cheio de balas coloridas" width="420" height="420" fetchpriority="high">
+          <span class="sticker">Pix −10%</span>
+        </div>
+      </div>
+    </section>
+
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track" id="marquee"></div>
+    </div>
+
+    <section class="block" id="produtos">
+      <div class="wrap">
+        <div class="sec-head"><h2>Os produtos</h2><span class="muted">Frete grátis · escolha entrega econômica ou expressa</span></div>
+        <div class="grid" id="grid" aria-live="polite"><p class="muted">Carregando produtos…</p></div>
+      </div>
+    </section>
+
+    <section class="block" id="ranking">
+      <div class="wrap">
+        <div class="sec-head"><h2>O ranking</h2><span class="muted">Todo produto passa pelo teste no vídeo</span></div>
+        <div class="ranking">
+          <div class="rank-item"><span>🔥</span><b class="lime">Aprovadão</b><p class="muted">Funciona, é bom e faz sentido. Compra sem medo.</p></div>
+          <div class="rank-item"><span>👍</span><b class="c-blue">Vale a pena</b><p class="muted">Tem defeitos, mas entrega o que promete.</p></div>
+          <div class="rank-item"><span>😐</span><b class="c-orange">Meh</b><p class="muted">Cumpre o básico. Só se estiver em promoção.</p></div>
+          <div class="rank-item"><span>🗑️</span><b class="c-red">Lixo</b><p class="muted">Eu testei pra você não precisar passar por isso.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="block" id="confianca">
+      <div class="wrap trust">
+        <div><span class="ico">🔒</span><strong>Pagamento seguro</strong><span class="muted">Cartão e Pix processados pelo Mercado Pago. Seus dados de cartão nunca passam por aqui.</span></div>
+        <div><span class="ico">💸</span><strong>Pix com 10% off</strong><span class="muted">O desconto é aplicado automaticamente ao escolher Pix.</span></div>
+        <div><span class="ico">📦</span><strong>Frete grátis</strong><span class="muted">Econômica em até ~15 dias ou Expressa com entrega mais rápida.</span></div>
+        <div><span class="ico">🎬</span><strong>Testado no canal</strong><span class="muted">Cada produto tem vídeo, nota e veredito honesto.</span></div>
+      </div>
+    </section>
+
+    <section class="block" id="canais">
+      <div class="wrap">
+        <div class="sec-head"><h2>Vídeo novo toda semana</h2></div>
+        <p class="muted">Siga o canal para ver o próximo produto sendo testado (e dissolvido).</p>
+        <div class="socials" id="socials"></div>
+      </div>
+    </section>
+  </main>
+  <script type="module" src="js/home.js"></script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+{
+  "_como_usar": "Para lançar um produto novo, copie um bloco abaixo, mude os campos e salve. O site atualiza sozinho. preco = entrega econômica (~15 dias). precoExpresso = entrega rápida. Frete já está incluso. veredito: aprovadao | vale | meh | lixo | em-teste. nota: 0 a 10 (ou null se ainda não testou).",
+  "produtos": [
+    {
+      "slug": "taca-gigante-shot-tower",
+      "nome": "Taça Gigante Shot Tower",
+      "categoria": "Taças",
+      "emoji": "🥂",
+      "resumo": "Torre de shots para o caos da mesa. Cabe uma rodada inteira.",
+      "descricao": "Torre de shots em vidro com 12 copinhos. Perfeita para encher de suco, refrigerante ou da sua mistura sem álcool favorita e fazer a festa. Produto de exemplo: troque pelos seus dados reais.",
+      "preco": 89.9,
+      "precoExpresso": 129.9,
+      "fotos": [],
+      "nota": 8.5,
+      "veredito": "aprovadao",
+      "resumoVeredito": "Bonita, resistente e rende vídeo. Aprovada no teste.",
+      "pros": ["Vidro grosso", "Muito visual na mesa", "Fácil de lavar"],
+      "contras": ["Ocupa espaço"],
+      "videos": { "instagram": "https://www.instagram.com/shot_apoquetilico/", "youtube": "", "tiktok": "" },
+      "disponivel": true
+    },
+    {
+      "slug": "jogo-tiro-de-tampinha",
+      "nome": "Jogo Tiro de Tampinha",
+      "categoria": "Jogos de bar",
+      "emoji": "🎯",
+      "resumo": "Atire a tampinha e acerte o alvo. Zero bom senso, 100% diversão.",
+      "descricao": "Kit de tiro ao alvo com tampinhas para mesa de bar. Inclui alvo, lançador e tampinhas. Produto de exemplo: troque pelos seus dados reais.",
+      "preco": 59.9,
+      "precoExpresso": 94.9,
+      "fotos": [],
+      "nota": 6.5,
+      "veredito": "vale",
+      "resumoVeredito": "Divertido com a galera, mas o lançador poderia ser melhor.",
+      "pros": ["Barato", "Rende risada"],
+      "contras": ["Lançador de plástico fraco"],
+      "videos": { "instagram": "https://www.instagram.com/shot_apoquetilico/", "youtube": "", "tiktok": "" },
+      "disponivel": true
+    },
+    {
+      "slug": "kit-copos-shot-neon",
+      "nome": "Kit Copos Shot Neon",
+      "categoria": "Taças",
+      "emoji": "🧪",
+      "resumo": "6 copinhos que brilham sob luz negra. Em teste no próximo vídeo.",
+      "descricao": "Kit com 6 copos de shot. Chegando para teste. Produto de exemplo: troque pelos seus dados reais.",
+      "preco": 39.9,
+      "precoExpresso": 69.9,
+      "fotos": [],
+      "nota": null,
+      "veredito": "em-teste",
+      "resumoVeredito": "Ainda não testei. Fique de olho no próximo vídeo.",
+      "pros": [],
+      "contras": [],
+      "videos": { "instagram": "", "youtube": "", "tiktok": "" },
+      "disponivel": true
+    }
+  ]
+}
